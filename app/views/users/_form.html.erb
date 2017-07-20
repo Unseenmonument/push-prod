@@ -10,6 +10,11 @@
       </ul>
     </div>
   <% end %>
+  
+   <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :user_name %>
+  </div>
 
   <div class="field">
     <%= form.label :team_id %>
@@ -18,7 +23,7 @@
 
   <div class="field">
     <%= form.label :avatar %>
-    <%= form.text_field :avatar, id: :user_avatar %>
+    <%= form.file_field :avatar, id: :user_avatar %>
   </div>
 
   <div class="actions">
