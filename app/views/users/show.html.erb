@@ -2,7 +2,7 @@
 
 <p>
   <strong>Name:</strong>
-  <%= @name.team_id %>
+  <%= @user.name %>
 </p>
 
 <p>
@@ -12,7 +12,7 @@
 
 <p>
   <strong>Avatar:</strong>
-  <%= image_tagh @user.avatar %>
+  <%= image_tag @user.avatar %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
