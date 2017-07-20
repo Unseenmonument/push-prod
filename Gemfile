@@ -35,6 +35,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'fog'
+gem 'figaro'
 
 gem 'faker'
 
